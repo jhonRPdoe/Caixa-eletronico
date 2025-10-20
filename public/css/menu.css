@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.menu-container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.mensagem-sucesso {
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.mensagem-erro {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.botoes-menu form {
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.botao-logout {
+    background-color: #e74c3c;
+}
+
+.botao-logout:hover {
+    background-color: #c0392b;
+}

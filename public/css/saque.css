@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.deposito-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 30%;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.mensagem-sucesso {
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.mensagem-erro {
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notas-container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+.notas-grupo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.nota {
+    display: flex;
+    flex-direction: column;
+    background-color: #0077ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    align-items: center;
+    width: 90%;
+    margin: 1%;
+}
+
+
+.nota:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.quantidade-nota {
+    width: 50%;
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin: 1%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.botao-limpar {
+    background-color: #e74c3c;
+}
+
+.botao-limpar:hover {
+    background-color: #c0392b;
+}
+
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    width: 80%;
+}
