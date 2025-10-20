@@ -16,7 +16,7 @@ abstract class PersistenciaJson extends Persistencia {
     private $caminhoArquivo;
 
     public function __construct($sArquivoJson) {
-        $this->caminhoArquivo = 'C:\xampp\htdocs\caixa-eletronico\app\dados/' . $sArquivoJson;
+        $this->caminhoArquivo = __DIR__ . '/../dados/' . $sArquivoJson;
         if (!file_exists($this->caminhoArquivo)) file_put_contents($this->caminhoArquivo, json_encode([]));
     }
 

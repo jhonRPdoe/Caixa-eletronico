@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/operacao_fim.css">
+    <link rel="stylesheet" href="../public/css/operacao_sucesso.css">
     <title>Caixa Eletrônico - Operação</title>
 </head>
 <body>
